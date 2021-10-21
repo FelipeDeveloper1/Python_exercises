@@ -1,0 +1,13 @@
+nome = input('Digite seu nome completo: ')
+nomem = nome.upper()
+nomemin = nome.lower()
+fat = nome.split()
+juntin = '-'.join(fat)
+nomefatiado = nome.replace(" ", "")
+
+print(len(nomefatiado))
+print(nomemin)
+print(nomem)
+print(len(fat[0]))
+print(fat)
+print(juntin)
